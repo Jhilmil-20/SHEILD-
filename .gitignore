@@ -1,30 +1,26 @@
-# Android
-/build/
-.gradle/
-/local.properties
-build/   # Exclude build artifacts including APKs
+.DS_Store
+node_modules
+/dist
 
-# iOS
-Pods/
-*.xcworkspace/
-*.pbxproj
-*.mode1v3
-*.mode2v3
-*.perspectivev3
-*.xccheckout
-*.xcuserstate
+# Config files
+/src/firebase/config.js
 
-# macOS
-*.DS_Store
+# local env files
+.env
+.env.local
+.env.*.local
 
-# Flutter/Dart
-**/android/gradle-wrapper.jar
-**/android/.gradle
-**/android/build/
-**/ios/Flutter/ephemeral
-**/ios/.generated/
-**/.dart_tool/
-**/.packages
-.dart_tool/
-.pub/
-.build/
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
