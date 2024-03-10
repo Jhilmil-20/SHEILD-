@@ -1,0 +1,30 @@
+# Android
+/build/
+.gradle/
+/local.properties
+build/   # Exclude build artifacts including APKs
+
+# iOS
+Pods/
+*.xcworkspace/
+*.pbxproj
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.xcuserstate
+
+# macOS
+*.DS_Store
+
+# Flutter/Dart
+**/android/gradle-wrapper.jar
+**/android/.gradle
+**/android/build/
+**/ios/Flutter/ephemeral
+**/ios/.generated/
+**/.dart_tool/
+**/.packages
+.dart_tool/
+.pub/
+.build/
